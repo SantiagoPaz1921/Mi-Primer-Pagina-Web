@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display en CSS</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: #FF5252; /* rojo vivo */
+            background: linear-gradient(45deg, #FF5252 0%, #FFD600 50%, #FF6F00 100%); /* fondo con tonos rojo, amarillo y naranja */
+            color: #333; /* color de texto oscuro */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* fondo blanco con opacidad */
+            border-radius: 10px;
+        }
+
+        h1, h2 {
+            font-family: 'Impact', sans-serif;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Display</h1>
+        <p>La propiedad display en CSS se utiliza para controlar cómo se muestra un elemento HTML en la página. Esta propiedad especifica el tipo de caja que se utilizará para el elemento, lo que a su vez afecta su diseño y comportamiento en el flujo del documento.</p>
+        <p>Algunos de los valores más comunes de la propiedad display son:</p>
+        <ul>
+            <li><strong>display:block</strong>: El elemento se comporta como un bloque y ocupa todo el ancho disponible del contenedor padre.</li>
+            <li><strong>display:inline</strong>: El elemento se comporta como una parte de texto en línea y no inicia una nueva línea.</li>
+            <li><strong>display:inline-block</strong>: Combina las características de display: inline; y display: block; El elemento se comporta como un bloque, pero no inicia una nueva línea y acepta márgenes y dimensiones.</li>
+            <li><strong>display:flex</strong>: Define un contenedor flexible (flex container) que organiza a sus elementos hijos (flex items) en una línea o en varias líneas, según la dirección especificada (flex-direction).</li>
+            <li><strong>display:grid</strong>: Define un contenedor de cuadrícula (grid container) que organiza a sus elementos hijos (grid items) en una cuadrícula bidimensional de filas y columnas.</li>
+        </ul>
+    </div>
+</body>
+</html>

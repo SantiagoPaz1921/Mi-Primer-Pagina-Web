@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid CSS</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial Black', sans-serif;
+            background: linear-gradient(to bottom, #5bf560, #2196F3);
+            color: white;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+        }
+
+        h2 {
+            font-size: 24px;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .title {
+            background-color: rgba(255, 255, 255, 0.3);
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Grid</h2>
+        <div class="title">Para utilizar Grid CSS necesitaremos tener en cuenta una serie de conceptos que utilizaremos a partir de ahora y que definiremos a continuación</div>
+        <p><strong>Propiedades de grid:</strong></p>
+        <ul>
+            <li><strong>Contenedor:</strong> Existe un elemento padre que es el contenedor que definirá la cuadrícula o rejilla.</li>
+            <li><strong>Ítem:</strong> Cada uno de los hijos que contiene la cuadrícula (elemento contenedor).</li>
+            <li><strong>Celda (grid cell):</strong> Cada uno de los cuadritos (unidad mínima) de la cuadrícula.</li>
+            <li><strong>Área (grid area):</strong> Región o conjunto de celdas de la cuadrícula.</li>
+            <li><strong>Banda (grid track):</strong> Banda horizontal o vertical de celdas de la cuadrícula.</li>
+            <li><strong>Línea (grid line):</strong> Separador horizontal o vertical de las celdas de la cuadrícula.</li>
+        </ul>
+        <div class="title">Filas y columnas repetitivas</div>
+        <p>En las propiedades grid-template-columns y grid-template-rows podemos indicar expresiones de repetición, indicando celdas que repiten un mismo patrón de celdas varias veces. La expresión a utilizar sería la siguiente: repeat([núm de veces], [valor o valores]).</p>
+        <div class="title">Grid por áreas</div>
+        <p></p>
+    </div>
+</body>
+</html>
